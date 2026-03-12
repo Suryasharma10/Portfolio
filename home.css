@@ -20,12 +20,19 @@ body{
         background: radial-gradient( rgb(2, 2, 2), rgb(48, 45, 45));
         width: 100%; 
         height: 100vh;
+        color: white;
+        text-align: center;
+        align-items: center;
     }
     .box {
         width: 90%; 
         height: 70%;
         padding-left: 2rem;
         padding-right: 1rem;
+    }
+    .heading::after{
+        font-size: 2.7rem;
+        content: ": Surya Pratap Sharma";
     }
     h1{
     font-size: 3rem;
@@ -71,6 +78,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    color: white;
     }
     h1{
     font-size: 3rem;
