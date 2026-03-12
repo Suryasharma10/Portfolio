@@ -1,0 +1,156 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background-image:url(profile.png);
+background-size:cover;
+background-repeat:no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+h3{
+    color: white;
+}
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:1rem;
+flex-direction:column;
+box-shadow:2px 3px 46px 3px rgb(10,30,40);
+background-color: black;
+}
+
+.box1,.box2{
+display:flex;
+justify-content:space-between;
+margin-bottom:0.4rem;
+margin-right:2rem;
+}
+
+.headings{
+display:flex;
+gap:20px;
+}
+
+a{
+font-size:1.4rem;
+text-decoration:none;
+color:white;
+}
+
+.headings a{
+font-size:1.2rem;
+color:rgb(183,181,181);
+}
+
+.headings a:hover{
+font-size:1.4rem;
+transition:300ms;
+font-weight:900;
+}
+
+button{
+padding:0.3rem;
+border-radius:9%;
+background-color:rgb(57,249,137);
+color:white;
+font-weight:bold;
+border:0.7px dashed rgb(8,190,90);
+}
+
+button:hover{
+padding:0.6rem;
+border-radius:13%;
+background-color:rgb(182,243,101);
+color:rgb(1, 1, 1);
+font-size:1rem;
+border:1px solid rgb(9,10,10);
+box-shadow:3px 2px 51px 1px rgb(47,98,103);
+transition:0.2s linear;
+cursor:pointer;
+}
+
+.box3{
+height:60vh;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding:1rem;
+}
+
+.container{
+margin:10rem 0 2rem 3rem;
+height:50vh;
+border:2rem solid white;
+padding:1rem;
+border-radius:1rem;
+background:linear-gradient(black,rgb(40,37,37));
+width:60%;
+color:white;
+}
+
+.img{
+margin:10rem 0 2rem 3rem;
+height:25rem;
+width:25rem;
+border:2px solid white;
+background-image:url(photo.png);
+background-size:cover;
+background-repeat:no-repeat;
+border-radius:50%;
+margin-right: 3rem;
+}
+
+h1{
+text-align:center;
+font-size:2rem;
+color: white;
+font-style: italic;
+}
+#experience{
+    margin: 2rem;
+}
+p{
+margin:1rem;
+font-size:1.3rem;
+background:transparent;
+}
+
+#projects-dash{
+margin-top:10rem;
+display:flex;
+align-items:center;
+flex-direction:column;
+text-align:center;
+color: white;
+margin-top: 12rem;
+font-style: italic;
+}
+
+.projects{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+justify-content:center;
+color: white;
+}
+
+.projects h3{
+font-size:1.3rem;
+padding:2rem 0 1rem 0;
+text-decoration:overline rgb(137,237,224);
+}
+
+.projects img{
+height:17rem;
+width:24rem;
+border-radius:5%;
+margin:1rem;
+}
