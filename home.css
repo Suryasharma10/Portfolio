@@ -1,242 +1,99 @@
-<<<<<<< HEAD
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{
+
+html,
+body {
     width: 100%;
-    height: 100vh;
-    /* background: linear-gradient(to right,rgb(2, 2, 2),rgb(39, 36, 36)); */
+    min-height: 100%;
 }
-.box{
-    width: 50%;
-    border: none;
-    text-align: left;
-    padding-left: 11vh;
-    padding-top: 34vh;
-    padding-bottom: 34vh;
-}
-@media screen and (max-width: 850px) {
-    body {
-        background: radial-gradient( rgb(2, 2, 2), rgb(48, 45, 45));
-        width: 100%; 
-        height: 100vh;
-        color: white;
-        text-align: center;
-        align-items: center;
-    }
-    .box {
-        width: 90%; 
-        height: 70%;
-        padding-left: 2rem;
-        padding-right: 1rem;
-    }
-    .heading::after{
-        font-size: 2.7rem;
-        content: ": Surya Pratap Sharma";
-    }
-    h1{
-    font-size: 3rem;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    h4{
-        font-size: 1.5rem;
-        font-weight: 200;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 0.6rem;
-    }
-    a{
-        text-decoration: none;
-        color: white;
-        font-size: 0.9rem;
-        font-weight: 700;
-    }
-    button{
-        padding: 0.6rem;
-        margin: 0.8rem;
-        background: transparent;
-        border: 0.3px solid greenyellow;
-        border-radius: 0.5rem;
-    }
-    button:hover a{
-        padding: 0.7rem;
-        margin: 0.7rem;
-        font-size: 1.1rem;
-        transition: 0.4s ease-in-out;
-    }
-    button:hover{ 
-        font-weight: bolder;
-        background-color: rgb(60, 202, 58);
-        transition: 0.3s ease-in-out;
-        border: rgb(239, 176, 19);
-        border-radius: 0.6rem;
-    }
-}
-@media screen and ((min-width:850px) and (max-width:1800px)) {
-    body{
-    background-image: url(background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+
+body {
+    position: relative;
+    min-height: 100svh;
+    overflow-x: hidden;
     color: white;
-    }
-    h1{
-    font-size: 3rem;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    h4{
-        font-size: 1.2rem;
-        font-weight: 200;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 1rem;
-    }
-    a{
-        text-decoration: none;
-        color: white;
-        font-size: 1rem;
-        font-weight: 900;
-    }
-    button{
-        padding: 0.6rem;
-        margin: 1rem;
-        background: transparent;
-        border: 0.4px solid greenyellow;
-        border-radius: 0.6rem;
-    }
-    button:hover a{
-        padding: 0.8rem;
-        margin: 1.2rem;
-        font-size: 1.3rem;
-        transition: 0.4s ease-in-out;
-    }
-    button:hover{ 
-        font-weight: bolder;
-        background-color: rgb(60, 202, 58);
-        transition: 0.3s ease-in-out;
-        border: rgb(239, 176, 19);
-        border-radius: 0.7rem;
-    }
-=======
-*{
-    padding: 0px;
-    margin: 0px;
-}
-body{
-    width: 100%;
-    height: 100vh;
-    /* background: linear-gradient(to right,rgb(2, 2, 2),rgb(39, 36, 36)); */
-}
-.box{
-    width: 50%;
-    border: none;
-    text-align: left;
-    padding-left: 11vh;
-    padding-top: 34vh;
-    padding-bottom: 34vh;
-}
-@media screen and (max-width: 850px) {
-    body {
-        background: radial-gradient( rgb(2, 2, 2), rgb(48, 45, 45));
-        width: 100%; 
-        height: 100vh;
-        color: white;
-        text-align: center;
-        align-items: center;
-    }
-    .box {
-        width: 90%; 
-        height: 70%;
-        padding-left: 2rem;
-        padding-right: 1rem;
-    }
-    .heading::after{
-        font-size: 2.7rem;
-        content: ": Surya Pratap Sharma";
-    }
-    h1{
-    font-size: 3rem;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    h4{
-        font-size: 1.5rem;
-        font-weight: 200;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 0.6rem;
-    }
-    a{
-        text-decoration: none;
-        color: white;
-        font-size: 0.9rem;
-        font-weight: 700;
-    }
-    button{
-        padding: 0.6rem;
-        margin: 0.8rem;
-        background: transparent;
-        border: 0.3px solid greenyellow;
-        border-radius: 0.5rem;
-    }
-    button:hover a{
-        padding: 0.7rem;
-        margin: 0.7rem;
-        font-size: 1.1rem;
-        transition: 0.4s ease-in-out;
-    }
-    button:hover{ 
-        font-weight: bolder;
-        background-color: rgb(60, 202, 58);
-        transition: 0.3s ease-in-out;
-        border: rgb(239, 176, 19);
-        border-radius: 0.6rem;
-    }
-}
-@media screen and ((min-width:850px) and (max-width:1800px)) {
-    body{
-    background-image: url(background.png);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("background.png");
+    background-position: center;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", sans-serif;
+}
+
+.box {
+    width: min(90%, 42rem);
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(2rem, 8vw, 6rem);
+}
+
+.heading {
+    max-width: 12ch;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    line-height: 1.1;
+}
+
+.heading::after {
+    content: ": Surya Pratap Sharma";
+}
+
+h4 {
+    margin: 1rem 0;
+    font-family: Cambria, Georgia, serif;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 400;
+}
+
+button {
+    width: fit-content;
+    min-height: 2.75rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.65rem 1rem;
+    border: 1px solid greenyellow;
+    border-radius: 0.5rem;
+    background: transparent;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover,
+button:focus-within {
+    background-color: rgb(60, 202, 58);
+    transform: translateY(-2px);
+}
+
+a {
     color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-attachment: scroll;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url("background.png");
+        background-size: auto 100%;
+        background-position: 70% center;
     }
-    h1{
-    font-size: 3rem;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    .box {
+        width: 100%;
+        align-items: center;
+        padding: 2rem 1.25rem;
+        text-align: center;
     }
-    h4{
-        font-size: 1.2rem;
-        font-weight: 200;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 1rem;
+
+    .heading {
+        max-width: 100%;
     }
-    a{
-        text-decoration: none;
-        color: white;
-        font-size: 1rem;
-        font-weight: 900;
+
+    button {
+        margin-right: 0.25rem;
+        margin-left: 0.25rem;
     }
-    button{
-        padding: 0.6rem;
-        margin: 1rem;
-        background: transparent;
-        border: 0.4px solid greenyellow;
-        border-radius: 0.6rem;
-    }
-    button:hover a{
-        padding: 0.8rem;
-        margin: 1.2rem;
-        font-size: 1.3rem;
-        transition: 0.4s ease-in-out;
-    }
-    button:hover{ 
-        font-weight: bolder;
-        background-color: rgb(60, 202, 58);
-        transition: 0.3s ease-in-out;
-        border: rgb(239, 176, 19);
-        border-radius: 0.7rem;
-    }
->>>>>>> f60a559e818b0f8a4923d74bb66637685698f3af
 }
